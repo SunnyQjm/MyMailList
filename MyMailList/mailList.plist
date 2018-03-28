@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<dict>
+		<key>name</key>
+		<string>老朱</string>
+		<key>phone</key>
+		<string>18340857296</string>
+		<key>email</key>
+		<string>laozhu@gmail.com</string>
+		<key>description</key>
+		<string>并不是基佬</string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>name</key>
+		<string>Robbin</string>
+		<key>phone</key>
+		<string>18340857215</string>
+		<key>email</key>
+		<string>Robbin@gmail.com</string>
+		<key>description</key>
+		<string>Have not myDescription~</string>
+	</dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>name</key>
+		<string>Rein</string>
+		<key>phone</key>
+		<string>18340857569</string>
+		<key>email</key>
+		<string>Rein@gmail.com</string>
+		<key>description</key>
+		<string>It&apos;s a beautiful girl~~</string>
+	</dict>
+</dict>
+</plist>
