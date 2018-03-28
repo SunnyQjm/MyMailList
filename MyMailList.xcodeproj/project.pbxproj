@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4100068D25905FF88288340 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C410081F65DA1D62F35B5364 /* back.png */; };
 		C41002DE9349E883B5E2C032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C410019A2418A80E4C4EEEC8 /* Main.storyboard */; };
 		C410030CBAD16AFF037FD0E5 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4100BF520F21CB5A3F93B20 /* bg.jpeg */; };
 		C41003354129E0407B6C3290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4100DE06AF2117737D2E5DC /* main.m */; };
@@ -15,7 +16,6 @@
 		C410072EC26315F1418FD9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41009CC019EB3C0F9B8CC46 /* Assets.xcassets */; };
 		C4100741B986ECE947D8970B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41006E962C58B5D53B6B120 /* LaunchScreen.storyboard */; };
 		C4100920326E43C9FAF905AB /* MyMailList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4100ABBC2EC35ABBD8E37CD /* MyMailList.xcdatamodeld */; };
-		C41009A0FC54C6BEBEB0459F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C41006E10D156909693641B0 /* back.png */; };
 		C41009EC60F447BD89B928B1 /* MyMailListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41002353CAC5E176DE379C8 /* MyMailListUITests.m */; };
 		C4100A516D17A9046AEF6369 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41005BEAE1ADB223143A07E /* DetailViewController.m */; };
 		C4100AB923B511B54D872423 /* MyMailListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4100A8D492911E1A8E82B59 /* MyMailListTests.m */; };
@@ -54,10 +54,10 @@
 		C4100433FBED070E3A8D63EF /* MyMailListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMailListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41005BEAE1ADB223143A07E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C41005EDD6C7BF0BCC7FD4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		C41006E10D156909693641B0 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		C4100701AC28D3905C93511A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C410070523B5D0674B66107C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		C41007F71C23CB808232110A /* MyMailListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMailListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C410081F65DA1D62F35B5364 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		C4100885FF122411A00A986D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C4100890513F2E508553286C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C4100934FC4971EFFCE0EBCA /* mailList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = mailList.plist; sourceTree = "<group>"; };
@@ -155,9 +155,9 @@
 				C4100C84BEF71F2268CEA8F5 /* MailItem.h */,
 				C41005BEAE1ADB223143A07E /* DetailViewController.m */,
 				C4100F67DE144E310974256D /* MailItem.m */,
-				C41006E10D156909693641B0 /* back.png */,
 				C41002D0C0737E98A9CDA515 /* MailListDataManager.m */,
 				C4100934FC4971EFFCE0EBCA /* mailList.plist */,
+				C410081F65DA1D62F35B5364 /* back.png */,
 			);
 			path = MyMailList;
 			sourceTree = "<group>";
@@ -281,8 +281,8 @@
 				C4100F0AF00E7F0C1E38F1B1 /* Info.plist in Resources */,
 				C41006EB344B0FEA066480D5 /* edit.png in Resources */,
 				C410030CBAD16AFF037FD0E5 /* bg.jpeg in Resources */,
-				C41009A0FC54C6BEBEB0459F /* back.png in Resources */,
 				C4100D84DA1E7A59C0230942 /* mailList.plist in Resources */,
+				C4100068D25905FF88288340 /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
